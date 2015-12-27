@@ -1,0 +1,11 @@
+dist/
+docs/
+node_modules/
+src/config.js
+.esdoc.json
+karma.conf.js
+styleguide.config.js
+webpack.config.dev.js
+webpack.config.prod.js
+package.json
+nodemon.json

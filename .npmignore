@@ -1,0 +1,20 @@
+*.iml
+
+
+## File-based project format:
+*.ipr
+*.iws
+
+test/
+design/
+docs/
+
+devServer.js
+karma.conf.js
+webpack.config.dev.js
+webpack.config.prod.js
+tests.webpack.js
+styleguide.config.js
+nodemon.json
+.*
+npm-debug.log

@@ -1,0 +1,74 @@
+:root {
+  --background: white;
+  --color: #45434C;
+  --highlight: #8A7AD0;
+}
+
+
+:local(.hello) {
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right: 0;
+  margin:0;
+  padding:0;
+  background: var(--background);
+  color:var(--color);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+  -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+  -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+  font-family: 'DIN Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size:12px;
+  height:100%;
+  margin:0;
+  padding:0;
+  width:100%;
+  overflow: hidden;
+  display: block;
+}
+.pull-left {
+  float:left;
+}
+.pull-right {
+  float:right;
+}
+
+#main {
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right: 0;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+}
+

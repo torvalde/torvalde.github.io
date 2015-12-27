@@ -1,0 +1,11 @@
+{
+    "verbose": true,
+    "ext": "js,ejs,json",
+    "execMap": {
+        "js": "node --harmony --debug"
+    },
+    "env": {
+      "NODE_ENV": "qa"
+    },
+    "watch": ["devServer.js"]
+}
