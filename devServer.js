@@ -21,7 +21,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 app.use(require('webpack-hot-middleware')(compiler));
 
-app.get('/', function(req, res) {
+app.get('/:var(index.htm|index.html|cv|cv.html)?', function(req, res) {
   res.send(index);
 });
 

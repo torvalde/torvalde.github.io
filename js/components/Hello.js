@@ -21,6 +21,7 @@ class Hello extends React.Component {
   }
 
   render() {
+    alert("page "+this.props.page.substring(1));
     return (
       <div className={hello}>Hello</div>
     );

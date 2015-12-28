@@ -5,7 +5,7 @@ import { render } from 'react-dom';
 import Hello from './js/components/Hello';
 
 render(
-  <Hello/>,
+  <Hello page={window.location.pathname}/>,
   document.getElementById('main')
 );
 
